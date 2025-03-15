@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message form</title>
+    <link rel="icon" href="img/logo.jpg" type="image/png">
+
+    <!-- STyle -->
+     <link rel="stylesheet" href="styles/footer.css">
+     <link rel="stylesheet" href="styles/message-form.css">
+
+</head>
+<body>
+
+    <div class="message-form">
+        <div>
+            <h2>Share Your Love and Blessings</h2>
+            <p>Your words will make his day even more special! Leave a heartfelt message, share a funny memory, or simply send your best wishes.</p>
+        </div>
+
+        <form id="form">
+            <input type="text" class="name" name="name" placeholder="Your Name" required>
+            <textarea class="message" name="message" placeholder="Your Message" required></textarea>
+            <input   type="submit" class="send-your-wishes button" id="button" value="Send Wish">
+        </form>
+          
+    
+       
+    
+        <div class="quote">   
+            <div class="bible-verse">
+                <h3>Colossians 3:14 (NIV)</h3>
+                <p>And over all these virtues put on love, which binds them all together in perfect unity.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div > <p>Your WIshes have made this birthday even more special. Thank you for shairing your love!</p></div>
+ 
+         <div class="footer-bible-verse"> 
+            <P > To all of you, who have taken there time: 
+                 <strong> The Lord bless you and keep you; the Lord make His face shine on you and be gracious to you; the Lord turn His Face toward You and give you peace  </strong><span class="footer-bible-verse-ref"></span>>Numbers 6:24-26 (NIV)</span>
+             </P> 
+         </div>
+ 
+         <!-- <div><p>This is the day he Lord has made, Let us rejoice and be glad in it</p></div> -->
+ 
+         <div class="tredMark">ARAP-TUM</div>
+     </div>
+     
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('RuRptKG393PnVez71')
+      </script>
+
+  <script src="script.js/email.js"></script>  
+</body>
+</html>

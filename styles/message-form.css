@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Elegant and readable */
+    background: linear-gradient(to bottom, #fff4e6, #ffd6a5); /* Warm gradient */
+    color: #5a3e2b; /* Soft brown for text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Message Form Container */
+.message-form {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Heading */
+.message-form h2 {
+    font-family: 'Dancing Script', cursive; /* Handwritten style */
+    font-size: 28px;
+    color: #b22222; /* Deep red */
+    margin-bottom: 10px;
+}
+
+/* Description Text */
+.message-form p {
+    font-size: 16px;
+    color: #7a5230;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    color: #5a3e2b;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #d9a760;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #b22222; /* Change color on focus */
+}
+
+/* Textarea */
+textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+/* Submit Button */
+.button {
+    background: #b22222; /* Deep red */
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #8b1a1a; /* Darker red */
+}
+
+/* Quote Section */
+.quote {
+    margin-top: 30px;
+    background: #fffaf0;
+    padding: 20px;
+    border-left: 5px solid #b22222;
+    font-style: italic;
+    border-radius: 8px;
+}
+
+/* Bible Verse */
+.bible-verse h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b22222;
+    margin-bottom: 5px;
+}
+
+.bible-verse p {
+    font-size: 16px;
+    color: #7a5230;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .message-form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
